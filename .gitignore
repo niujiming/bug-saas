@@ -1,18 +1,15 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# git文件忽略配置
+# Pycharm
+.idea/
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Other files and folders
-.settings/
+# Django stuff:
+local_settings.py
+*.sqlite3
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# database migrations
+*/migrations/*.py
+!*/migrations/__init__.py
